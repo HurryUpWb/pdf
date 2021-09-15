@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T07:01:26.040Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.41 Safari/537.36" etag="q3uHC2kBiVtmUVFMyNkC" version="15.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T07:45:53.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.41 Safari/537.36" etag="v-s81Rz4upeiacu1khaE" version="15.2.5" type="github">
   <diagram id="lTaP7X6oet1jooY2lekY" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,11 +130,17 @@
         <mxCell id="IPJyr6EpF58ETLBAMNKB-24" value="&lt;font color=&quot;#000000&quot;&gt;外部系统&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="644" y="480" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IPJyr6EpF58ETLBAMNKB-25" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;sketch=1;fillColor=#23EB1C;gradientDirection=south;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="510" y="430" width="60" height="170" as="geometry" />
+        <mxCell id="IPJyr6EpF58ETLBAMNKB-25" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;sketch=1;fillColor=#23EB1C;gradientDirection=south;direction=east;strokeColor=#23EB1C;" vertex="1" parent="1">
+          <mxGeometry x="500" y="441" width="60" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="IPJyr6EpF58ETLBAMNKB-26" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;sketch=1;fillColor=#23EB1C;gradientDirection=south;direction=west;" vertex="1" parent="1">
-          <mxGeometry x="414" y="430" width="60" height="170" as="geometry" />
+        <mxCell id="IPJyr6EpF58ETLBAMNKB-26" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;sketch=1;fillColor=#23EB1C;gradientDirection=south;direction=west;strokeColor=#23EB1C;" vertex="1" parent="1">
+          <mxGeometry x="418" y="441" width="60" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IPJyr6EpF58ETLBAMNKB-28" value="全局异常处理器" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="445" y="600" width="86" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IPJyr6EpF58ETLBAMNKB-29" style="edgeStyle=elbowEdgeStyle;curved=1;sketch=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="IPJyr6EpF58ETLBAMNKB-28" target="IPJyr6EpF58ETLBAMNKB-28">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
