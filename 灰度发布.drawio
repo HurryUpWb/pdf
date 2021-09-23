@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T02:53:22.104Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="9cNGWD3e4Nyirba4OJHd" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-23T03:00:47.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="sEuIzvofjBmkw2up8_dj" version="15.2.9" type="github">
   <diagram id="ugMrJ2SwBn2UvXni3Bcu" name="第 1 页">
     <mxGraphModel dx="1422" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7SeQbiUmD9JgyTHyvXim-10" value="灰度用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="745" y="490" width="30" height="70" as="geometry" />
+          <mxGeometry x="745" y="460" width="30" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7SeQbiUmD9JgyTHyvXim-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7SeQbiUmD9JgyTHyvXim-15" target="7SeQbiUmD9JgyTHyvXim-4">
           <mxGeometry relative="1" as="geometry">
@@ -51,7 +51,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7SeQbiUmD9JgyTHyvXim-17" value="回滚" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7SeQbiUmD9JgyTHyvXim-16">
+        <mxCell id="7SeQbiUmD9JgyTHyvXim-17" value="step3:灰度回滚" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7SeQbiUmD9JgyTHyvXim-16">
           <mxGeometry x="-0.1479" y="-2" relative="1" as="geometry">
             <mxPoint x="-75" as="offset" />
           </mxGeometry>
@@ -72,7 +72,7 @@
             <mxPoint x="520" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7SeQbiUmD9JgyTHyvXim-18" value="更改原版本号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7SeQbiUmD9JgyTHyvXim-18" value="step4:更改原版本号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7SeQbiUmD9JgyTHyvXim-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7SeQbiUmD9JgyTHyvXim-21" target="7SeQbiUmD9JgyTHyvXim-24">
@@ -80,7 +80,7 @@
             <mxPoint x="730" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7SeQbiUmD9JgyTHyvXim-21" value="部署发布原版本" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7SeQbiUmD9JgyTHyvXim-21" value="step5:部署发布" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="520" y="790" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7SeQbiUmD9JgyTHyvXim-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.536;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7SeQbiUmD9JgyTHyvXim-24" target="7SeQbiUmD9JgyTHyvXim-25">
@@ -104,7 +104,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7SeQbiUmD9JgyTHyvXim-33" value="回滚" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7SeQbiUmD9JgyTHyvXim-31">
+        <mxCell id="7SeQbiUmD9JgyTHyvXim-33" value="step6:&amp;nbsp;版本回滚" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7SeQbiUmD9JgyTHyvXim-31">
           <mxGeometry x="0.0428" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -114,6 +114,15 @@
         </mxCell>
         <mxCell id="7SeQbiUmD9JgyTHyvXim-30" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=#080808;" vertex="1" parent="1">
           <mxGeometry x="1040" y="791.25" width="52.5" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="7SeQbiUmD9JgyTHyvXim-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.467;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7SeQbiUmD9JgyTHyvXim-35" target="7SeQbiUmD9JgyTHyvXim-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7SeQbiUmD9JgyTHyvXim-35" value="普通用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="950" width="30" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7SeQbiUmD9JgyTHyvXim-38" value="&lt;h1&gt;step1:&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1070" width="650" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
