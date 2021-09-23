@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T03:00:47.352Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="sEuIzvofjBmkw2up8_dj" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-23T03:03:53.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.54 Safari/537.36" etag="2F1SGTRJcZVR-QaKOYEJ" version="15.2.9" type="github">
   <diagram id="ugMrJ2SwBn2UvXni3Bcu" name="第 1 页">
     <mxGraphModel dx="1422" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -121,8 +121,8 @@
         <mxCell id="7SeQbiUmD9JgyTHyvXim-35" value="普通用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="950" width="30" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="7SeQbiUmD9JgyTHyvXim-38" value="&lt;h1&gt;step1:&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="1070" width="650" height="120" as="geometry" />
+        <mxCell id="7SeQbiUmD9JgyTHyvXim-38" value="&lt;h1&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;step1:&amp;nbsp;vim&amp;nbsp;ecloud-cls-xxx-grey.yaml&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1080" width="650" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
