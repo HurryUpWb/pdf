@@ -4,41 +4,87 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rbxUUjU9S7yHSoXGGBeZ-2" target="rbxUUjU9S7yHSoXGGBeZ-3">
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-32" value="" style="rounded=1;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="404" y="271" width="275" height="461" as="geometry" />
+        </mxCell>
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-30" value="" style="rounded=1;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="93" y="277" width="275" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="rbxUUjU9S7yHSoXGGBeZ-2" target="rbxUUjU9S7yHSoXGGBeZ-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-2" value="HTTP流量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="396" y="258" width="185" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-3" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="119" y="370" width="739" height="136" as="geometry" />
-        </mxCell>
-        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rbxUUjU9S7yHSoXGGBeZ-5" target="rbxUUjU9S7yHSoXGGBeZ-8">
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="rbxUUjU9S7yHSoXGGBeZ-2" target="rbxUUjU9S7yHSoXGGBeZ-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-5" value="&lt;font face=&quot;Helvetica&quot;&gt;数据采集和预处理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="158" y="414.75" width="129" height="46.5" as="geometry" />
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-2" value="HTTP请求" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="93" y="202" width="586" height="43" as="geometry" />
         </mxCell>
-        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-7" value="&lt;b&gt;特征检测与规则生成&lt;/b&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="362" y="373" width="223" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rbxUUjU9S7yHSoXGGBeZ-8" target="rbxUUjU9S7yHSoXGGBeZ-9">
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="rbxUUjU9S7yHSoXGGBeZ-3" target="rbxUUjU9S7yHSoXGGBeZ-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-8" value="&lt;p class=&quot;MsoNormal&quot;&gt;特征提取&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="335" y="414.75" width="129" height="46.5" as="geometry" />
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-3" value="服务不可用、监控告警" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;align=center;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="124" y="357" width="204" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rbxUUjU9S7yHSoXGGBeZ-9" target="rbxUUjU9S7yHSoXGGBeZ-10">
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="rbxUUjU9S7yHSoXGGBeZ-26" target="rbxUUjU9S7yHSoXGGBeZ-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-9" value="特征匹配" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="517" y="414.75" width="129" height="46.5" as="geometry" />
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-26" value="运维团队介入、故障分析" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;align=center;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="124" y="458" width="204" height="54" as="geometry" />
         </mxCell>
-        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-10" value="决策与响应" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="699" y="414.75" width="129" height="46.5" as="geometry" />
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="rbxUUjU9S7yHSoXGGBeZ-27" target="rbxUUjU9S7yHSoXGGBeZ-33">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-16" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="117" y="550" width="739" height="136" as="geometry" />
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-27" value="策略应用" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;align=center;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="124" y="555" width="204" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="rbxUUjU9S7yHSoXGGBeZ-33" target="rbxUUjU9S7yHSoXGGBeZ-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="226" y="756" />
+              <mxPoint x="388" y="756" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-33" value="访问控制效果跟进分析" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;align=center;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="124" y="651" width="204" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-35" value="HTTP结果返回" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="93" y="774" width="589" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="rbxUUjU9S7yHSoXGGBeZ-37" target="rbxUUjU9S7yHSoXGGBeZ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-37" value="根据模型标记请求" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;align=center;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="439.5" y="357" width="204" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="rbxUUjU9S7yHSoXGGBeZ-38" target="rbxUUjU9S7yHSoXGGBeZ-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-38" value="部分标记触发控制策略" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;align=center;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="439.5" y="458" width="204" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="rbxUUjU9S7yHSoXGGBeZ-42" target="rbxUUjU9S7yHSoXGGBeZ-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-42" value="策略应用" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;align=center;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="439.5" y="557" width="204" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" edge="1" parent="1" source="rbxUUjU9S7yHSoXGGBeZ-44" target="rbxUUjU9S7yHSoXGGBeZ-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="542" y="755" />
+              <mxPoint x="388" y="755" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-44" value="访问控制效果跟进分析" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;align=center;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="439.5" y="651" width="204" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-48" value="一般访问控制流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="91" y="286" width="137" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rbxUUjU9S7yHSoXGGBeZ-49" value="基于特征识别的访问控制流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="533" y="286" width="137" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
