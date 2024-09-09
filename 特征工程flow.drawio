@@ -158,8 +158,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wMSSB-UtIW8BPJWzu24c-11" value="规则处理器" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="-59" y="199" width="253" height="80" as="geometry" />
+        <mxCell id="wMSSB-UtIW8BPJWzu24c-11" value="访问控制处理器&lt;div&gt;（TAG-1: forward）&lt;/div&gt;&lt;div&gt;（TAG-2: forbidden）&lt;br&gt;&lt;/div&gt;&lt;div&gt;......&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-59" y="199" width="253" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="wMSSB-UtIW8BPJWzu24c-12" value="service" style="whiteSpace=wrap;html=1;rounded=0;dashed=1;align=center;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-59" y="319" width="108.5" height="54" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
