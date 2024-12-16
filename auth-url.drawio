@@ -1,17 +1,32 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="第 1 页" id="XQ7RoRogxlOBNYDJl3TE">
     <mxGraphModel dx="1434" dy="841" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WVlvyc_I9ev7_OBtyGi4-22" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="596" y="358" width="120" height="40" as="geometry" />
+        <mxCell id="Qf1JcKywghGs4XkblV7s-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WVlvyc_I9ev7_OBtyGi4-22" target="WVlvyc_I9ev7_OBtyGi4-24">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WVlvyc_I9ev7_OBtyGi4-23" value="管理端生成URL" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="491" y="463" width="130" height="55" as="geometry" />
+        <mxCell id="WVlvyc_I9ev7_OBtyGi4-22" value="开始" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" parent="1" vertex="1">
+          <mxGeometry x="499" y="170" width="120" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="WVlvyc_I9ev7_OBtyGi4-24" value="用户端生成URL" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="680" y="463" width="130" height="55" as="geometry" />
+        <mxCell id="Qf1JcKywghGs4XkblV7s-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="WVlvyc_I9ev7_OBtyGi4-23" target="Qf1JcKywghGs4XkblV7s-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlvyc_I9ev7_OBtyGi4-23" value="管理端生成URL" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="394" y="275" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Qf1JcKywghGs4XkblV7s-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="WVlvyc_I9ev7_OBtyGi4-24" target="Qf1JcKywghGs4XkblV7s-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVlvyc_I9ev7_OBtyGi4-24" value="用户端生成URL" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="588" y="275" width="130" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="Qf1JcKywghGs4XkblV7s-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.585;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WVlvyc_I9ev7_OBtyGi4-22" target="WVlvyc_I9ev7_OBtyGi4-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qf1JcKywghGs4XkblV7s-3" value="镜像网站" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="433" y="411" width="265" height="47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
