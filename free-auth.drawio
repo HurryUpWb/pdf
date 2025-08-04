@@ -42,7 +42,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="03fVBdrub_5vWcexrPSB-3" value="付费授权" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="222" y="413" width="120" height="60" as="geometry" />
+          <mxGeometry x="219" y="411" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="03fVBdrub_5vWcexrPSB-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-6" target="03fVBdrub_5vWcexrPSB-11">
           <mxGeometry relative="1" as="geometry" />
