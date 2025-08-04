@@ -1,87 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.0.6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1426" dy="838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1678" dy="986" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="03fVBdrub_5vWcexrPSB-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-0" target="03fVBdrub_5vWcexrPSB-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-0" value="开始" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="266" y="174" width="111" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-1" target="03fVBdrub_5vWcexrPSB-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-5" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="03fVBdrub_5vWcexrPSB-4">
-          <mxGeometry x="-0.2645" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-1" target="03fVBdrub_5vWcexrPSB-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="319" y="393" />
-              <mxPoint x="319" y="393" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-8" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="03fVBdrub_5vWcexrPSB-7">
-          <mxGeometry x="-0.1073" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-1" value="host是否为物理机" style="rhombus;whiteSpace=wrap;html=1;rounded=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="258.75" y="274" width="125.5" height="77" as="geometry" />
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-3" target="03fVBdrub_5vWcexrPSB-25">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="153" y="789" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-3" value="付费授权" style="whiteSpace=wrap;html=1;rounded=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="86" y="521" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-6" target="03fVBdrub_5vWcexrPSB-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-6" value="获取虚拟机所在宿主机信息" style="whiteSpace=wrap;html=1;rounded=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="258.5" y="405" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-11" target="03fVBdrub_5vWcexrPSB-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-15" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="03fVBdrub_5vWcexrPSB-14">
-          <mxGeometry x="-0.2133" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-11" target="03fVBdrub_5vWcexrPSB-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="209" y="551" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-21" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=1;points=[];movable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" connectable="0" parent="03fVBdrub_5vWcexrPSB-20">
-          <mxGeometry x="-0.1034" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-11" value="是否BC-Linux" style="rhombus;whiteSpace=wrap;html=1;rounded=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="266" y="513" width="105" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-13" target="03fVBdrub_5vWcexrPSB-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-13" value="免费授权" style="whiteSpace=wrap;html=1;rounded=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="258.75" y="654" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-25" value="结束" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="263.25" y="766" width="111" height="46" as="geometry" />
-        </mxCell>
         <mxCell id="03fVBdrub_5vWcexrPSB-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-33" target="03fVBdrub_5vWcexrPSB-42">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="941.75" y="244" as="targetPoint" />
