@@ -82,14 +82,55 @@
         <mxCell id="03fVBdrub_5vWcexrPSB-25" value="结束" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="263.25" y="766" width="111" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-29" value="用户" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="581" y="87" width="200" height="691" as="geometry" />
+        <mxCell id="03fVBdrub_5vWcexrPSB-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-33" target="03fVBdrub_5vWcexrPSB-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="761.75" y="144" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-30" value="License-Manager" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="781" y="87" width="200" height="691" as="geometry" />
+        <mxCell id="03fVBdrub_5vWcexrPSB-33" value="开始" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="706.25" y="25" width="111" height="46" as="geometry" />
         </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-31" value="BC-EV" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="981" y="87" width="200" height="691" as="geometry" />
+        <mxCell id="03fVBdrub_5vWcexrPSB-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-42" target="03fVBdrub_5vWcexrPSB-45">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="761.75" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03fVBdrub_5vWcexrPSB-42" value="获取当前OS的host信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="673" y="134" width="177.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="03fVBdrub_5vWcexrPSB-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-45" target="03fVBdrub_5vWcexrPSB-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="761.8000000000002" y="364" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03fVBdrub_5vWcexrPSB-51" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="03fVBdrub_5vWcexrPSB-50">
+          <mxGeometry x="-0.0053" y="-4" relative="1" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="03fVBdrub_5vWcexrPSB-45" value="host是否为物理机" style="rhombus;whiteSpace=wrap;html=1;rounded=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="699" y="225" width="125.5" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="03fVBdrub_5vWcexrPSB-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-52" target="03fVBdrub_5vWcexrPSB-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03fVBdrub_5vWcexrPSB-52" value="解析授权码获取是否付费字段值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="673" y="353" width="177.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="03fVBdrub_5vWcexrPSB-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-53" target="03fVBdrub_5vWcexrPSB-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03fVBdrub_5vWcexrPSB-53" value="授权码是否付费" style="rhombus;whiteSpace=wrap;html=1;rounded=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="699" y="449" width="125.5" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="03fVBdrub_5vWcexrPSB-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-56" target="03fVBdrub_5vWcexrPSB-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="03fVBdrub_5vWcexrPSB-56" value="授权成功，写入license" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="673" y="563" width="177.5" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="03fVBdrub_5vWcexrPSB-58" value="结束" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="706.25" y="673" width="111" height="46" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
