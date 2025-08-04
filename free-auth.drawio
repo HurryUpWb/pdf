@@ -95,7 +95,7 @@
             <mxPoint x="761.75" y="255" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="03fVBdrub_5vWcexrPSB-42" value="获取当前OS的host信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="03fVBdrub_5vWcexrPSB-42" value="获取当前系统的host信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="673" y="134" width="177.5" height="54" as="geometry" />
         </mxCell>
         <mxCell id="03fVBdrub_5vWcexrPSB-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="03fVBdrub_5vWcexrPSB-45" target="03fVBdrub_5vWcexrPSB-52">
