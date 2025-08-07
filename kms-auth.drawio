@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="27.1.6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.0.7">
   <diagram name="第 1 页" id="x4WuO3qJ2syy_9p05yud">
-    <mxGraphModel dx="1665" dy="890" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="1">
+    <mxGraphModel dx="1426" dy="838" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -99,38 +99,55 @@
         <mxCell id="Yd7G2oLsj9NPR8gorSdJ-53" value="" style="sketch=0;verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;fillColor=#000000;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.external_users;" parent="1" vertex="1">
           <mxGeometry x="372" y="98" width="48.449999999999996" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="pXe-Me0gvShqMi8IRUfx-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pXe-Me0gvShqMi8IRUfx-5" target="pXe-Me0gvShqMi8IRUfx-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="xayqOr-YLLDLqDc3Ez7s-1" value=":kms-server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="936" y="98" width="100" height="667" as="geometry" />
         </mxCell>
-        <mxCell id="pXe-Me0gvShqMi8IRUfx-5" value="" style="sketch=0;verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;fillColor=#000000;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.authentication_adaptive;" vertex="1" parent="1">
-          <mxGeometry x="918" y="257" width="91.24" height="91.24" as="geometry" />
+        <mxCell id="xayqOr-YLLDLqDc3Ez7s-2" value=":kms-client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1115" y="98" width="100" height="672" as="geometry" />
         </mxCell>
-        <mxCell id="pXe-Me0gvShqMi8IRUfx-10" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pXe-Me0gvShqMi8IRUfx-6" target="pXe-Me0gvShqMi8IRUfx-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="xayqOr-YLLDLqDc3Ez7s-3" value=":remote-server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1293" y="98" width="100" height="670" as="geometry" />
         </mxCell>
-        <mxCell id="pXe-Me0gvShqMi8IRUfx-6" value="config / 公钥" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1082.5" y="132" width="120" height="60" as="geometry" />
+        <mxCell id="xayqOr-YLLDLqDc3Ez7s-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xayqOr-YLLDLqDc3Ez7s-3">
+          <mxGeometry x="45" y="84" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="pXe-Me0gvShqMi8IRUfx-8" value="init" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1022" y="213.5" width="38" height="31" as="geometry" />
+        <mxCell id="xayqOr-YLLDLqDc3Ez7s-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" source="xayqOr-YLLDLqDc3Ez7s-7" target="xayqOr-YLLDLqDc3Ez7s-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="848" y="201.18000000000006" as="sourcePoint" />
+            <mxPoint x="1297" y="201" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1080" y="190" />
+              <mxPoint x="1080" y="188" />
+              <mxPoint x="1338" y="188" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="pXe-Me0gvShqMi8IRUfx-12" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pXe-Me0gvShqMi8IRUfx-9" target="pXe-Me0gvShqMi8IRUfx-11">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="xayqOr-YLLDLqDc3Ez7s-6" value="获取kms初始化配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xayqOr-YLLDLqDc3Ez7s-5">
+          <mxGeometry x="0.0524" y="-5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="pXe-Me0gvShqMi8IRUfx-9" value="写入sqlite数据库" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1276.5" y="132" width="120" height="60" as="geometry" />
+        <mxCell id="xayqOr-YLLDLqDc3Ez7s-10" value="&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;admin&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="766" y="101" width="100" height="667" as="geometry" />
         </mxCell>
-        <mxCell id="pXe-Me0gvShqMi8IRUfx-11" value="启动web服务" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1447.5" y="132" width="120" height="60" as="geometry" />
+        <mxCell id="xayqOr-YLLDLqDc3Ez7s-7" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="xayqOr-YLLDLqDc3Ez7s-10">
+          <mxGeometry x="45" y="84" width="10" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="pXe-Me0gvShqMi8IRUfx-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="pXe-Me0gvShqMi8IRUfx-15" target="pXe-Me0gvShqMi8IRUfx-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="xayqOr-YLLDLqDc3Ez7s-11" value="admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="799" y="11" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="pXe-Me0gvShqMi8IRUfx-15" value="" style="sketch=0;verticalLabelPosition=bottom;sketch=0;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;fillColor=#000000;align=center;outlineConnect=0;pointerEvents=1;shape=mxgraph.citrix2.citrix_provisioning_server;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="304.14" width="91.31" height="58.86" as="geometry" />
+        <mxCell id="xayqOr-YLLDLqDc3Ez7s-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="xayqOr-YLLDLqDc3Ez7s-12" target="xayqOr-YLLDLqDc3Ez7s-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1208" y="229" />
+              <mxPoint x="1208" y="229" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="pXe-Me0gvShqMi8IRUfx-17" value="auth/renew" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="1076" y="287.12" width="97" height="31" as="geometry" />
+        <mxCell id="xayqOr-YLLDLqDc3Ez7s-14" value="返回加密后的配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xayqOr-YLLDLqDc3Ez7s-13">
+          <mxGeometry x="-0.0909" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
